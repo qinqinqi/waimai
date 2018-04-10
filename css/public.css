@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration-line: none;
+	font-style: normal;
+	list-style: none;
+	box-sizing: border-box;
+	border:none;
+	outline:none;
+}
+a{
+	color:#848684;
+}
+.clear{
+	clear: both;
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 621045 */
+	src: url('https://at.alicdn.com/t/font_621045_3ty9insks2zw7b9.eot');
+	src: url('https://at.alicdn.com/t/font_621045_3ty9insks2zw7b9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_621045_3ty9insks2zw7b9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_621045_3ty9insks2zw7b9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_621045_3ty9insks2zw7b9.svg#iconfont') format('svg');
+}

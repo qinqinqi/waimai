@@ -1,0 +1,271 @@
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    position: fixed;
+    top:1.7rem;
+    left:0;
+    bottom:1.5rem;
+    overflow-y: scroll;
+}
+.bottom{
+    width:100%;
+    height:1.5rem;
+    background:#f7f7f7;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    display: flex;
+    justify-content:space-around;/* 等间距对齐 */
+    align-content: center; /*居中对齐*/
+    color:#848684;
+}
+.item{
+    display: flex;
+    justify-content: center;/* 居中对齐 */
+    align-content: center; /*居中对齐*/
+    flex-direction: column;
+    height:1.5rem;
+}
+.item i{
+    font-family: 'iconfont';
+    font-size:.6rem;
+    text-align: center;
+}
+.item em{
+    font-size:.28rem;
+}
+
+.search{
+    width:100%;
+    height:1.7rem;
+    background:#00aaff;
+    display: flex;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:100;
+}
+.search input{
+    width:10.2rem;
+    height:1.1rem;
+    line-height:1.1rem;
+    text-align: center;
+    color:#bdbabd;
+    border:none;
+    outline: none;
+    background: #fff;
+    margin:auto;
+    }
+.search input[value]{
+    font-family: 'iconfont';
+}
+.gunaggao img{
+    width:100%;
+    height:2.85rem;
+}
+.type{
+    width:100%;
+    height:5.9rem;
+    /*background:pink;*/
+    position: relative;
+}
+.type ul{
+    width: 10.2rem;
+    height: 100%;
+    margin: 0 auto;
+    font-size: .3rem;
+    color: #636563;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.type ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: .2rem;
+}
+.type ul li img{
+    width:1.3rem;
+    height:1.17rem;
+}
+.type_line{
+    width:.72rem;
+    height:.06rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;/* 两端对齐 */
+    position: absolute;
+    bottom: 0;
+    left:50%;
+}
+.type .line{
+    width:.3rem;
+    height:.06rem;
+    background:#dedfde;
+}
+.type .line2{
+    background:#b5b6b5;
+}
+.swiper-slide img{
+    width:100%;
+    height:2.57rem;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9;
+}
+.have_time,.local_food,.pin_contain{
+    width:10.2rem;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;/* 两端对齐 */
+}
+.have_time1{
+    width:5.06rem;
+    height:4.04rem;
+    background:#fffbff;
+}
+.local_food{
+    margin-top:.09rem;
+}
+.local_food .item{
+    width:3.34rem;
+    height:3.66rem;
+    background:#fffbff;
+    text-align:center;
+}
+.food_wenzi{
+    margin-left: .37rem;
+}
+.food_wenzi h8{
+    font-size:.42rem;
+    font-weight: bold;
+    color:#ef1818;
+}
+.food_wenzi p{
+    font-size:.32rem;
+    color:#636563;
+}
+.food_wenzi span{
+    font-size:.32rem;
+    color:#000;
+    display: block;
+}
+.food_wenzi img{
+    width:2.2rem;
+    height:auto;
+    float: right;
+}
+.local_food p{
+    font-size:.48rem;
+    font-weight:bold;
+}
+.local_food em{
+    font-size:.28rem;
+    color:#636563;
+    /*border:.02rem solid #636563;*/
+    border-radius:.05rem;
+}
+.local_food img{
+    width:100%;
+    height: 1.47rem;
+    margin-top: 1.1rem;
+}
+.hui{
+    width:100%;
+}
+.pin_head{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size:.42rem;
+    color:#ad7d42;
+    font-weight: bold;
+    margin-bottom:.5rem;
+}
+.pin_head .more{
+    font-size:.32rem;
+    color:#9c9a9c;
+    position: absolute;
+    right:0.3rem;
+    top:0;
+}
+.pin_contain .item3{
+    width: auto;
+    height:3.42rem;
+}
+.pin_contain .item3 img{
+    width:1.8rem;
+    height:1.8rem;
+}
+.pin_contain p{
+    font-size:.36rem;
+    font-weight: bold;
+}
+.pin_contain i{
+    font-size:.3rem;
+    color:#00aaff;
+    display: -webkit-box;
+    /*border:.02rem solid #00aaff;*/
+}
+.shaixuan{
+    width:100%;
+    height:1rem;
+    border-bottom:.02rem solid #f7f7f7;
+}
+.shaixuan ul{
+    width:10.2rem;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;/* 两端对齐 */
+}
+.shaixuan ul li{
+    font-size:.4rem;
+    line-height:1rem;
+}
+.shaixuan ul li i{
+    font-family: 'iconfont';
+    font-size:.3rem;
+}
+.stores{
+    width:10.2rem;
+    margin:0 auto;
+}
+.stores ul li{
+    /*height:4.5rem;*/
+    border-bottom:.02rem solid #f7f7f7;
+    margin-top:.5rem;
+    font-size:.3rem;
+    color:#636563;
+    display: flow-root;
+}
+.stores ul li img{
+    width:1.8rem;
+    height:1.8rem;
+    float:left;
+}
+.stores h8{
+    font-size:.5rem!important;
+    font-weight: bold;
+    color: #000;
+    display: block;
+}
+.stores p{
+    color:#ffb618;
+    float: left;
+}
+.stores .two i{
+    float: left;
+}
+.stores .two em{
+    float: right;
+}
+
+
+
+
+
